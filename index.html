@@ -1,16 +1,393 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" data-bs-theme="dark">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>7 sopas I Las mejores sops del Perú</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Siete sopas I Las mejores sopas en un sólo lugar</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
 </head>
 
-<body>
-    <h1>7 sopas I Las mejores sopas del Perú</h1>
+<body class="bg-body">
+  <header class="fixed-top">
+    <nav class="navbar navbar-expand-md bg-body-tertiary">
+      <div class="container p-0">
+        <a class="navbar-brand" href="#carouselExampleAutoplaying">
+          <img src="./img/logo7sopas.png" alt="Logo de 7 sopas" width="45" height="45" class="img img--logo" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#latest">Últimos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#top">Top</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Categorías
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#categories">Pescados</a></li>
+                <li><a class="dropdown-item" href="#categories">Mariscos</a></li>
+                <li><a class="dropdown-item" href="#categories">Sopas</a></li>
+                <li><a class="dropdown-item" href="#categories">Carnes</a></li>
+                <li><a class="dropdown-item" href="#categories">Pizzas</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#categories">Parrillas</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-primary" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main main>
+    <section id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="3"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/home7sopas.jpg" class="d-block w-100" alt="Slide-0"
+            style="display: block; height: 100vh; object-fit: cover;" />
+          <div class="carousel-caption text-start d-none d-md-block">
+            <h1>Siete sopas</h1>
+            <h3>Buena comida, buen vino y buena compañía.</h3>
+            <div>
+              <!-- <button type="button" class="btn btn-primary">Primary</button>
+              <button type="button" class="btn btn-secondary">Secondary</button> -->
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item active">
+          <img src="./img/buenazo.jpg" class="d-block w-100" alt="Slide-1"
+            style="display: block; height: 100vh; object-fit: cover;" />
+          <div class="carousel-caption text-start d-none d-md-block">
+            <h1>Sopa de cangrejo</h1>
+            <h3>Siempre es un deleite para los amantes de los sabores intensos.</h3>
+            <div>
+              <!-- <button type="button" class="btn btn-primary">Primary</button>
+              <button type="button" class="btn btn-secondary">Secondary</button> -->
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/slide2.jpg" class="d-block w-100" alt="Dragon Ball Gohan"
+            style="display: block; height: 100vh; object-fit: cover;" />
+          <div class="carousel-caption d-none d-md-block">
+            <h1>Chupe de pescado</h1>
+            <h3>Con la textura perfecta, es una experiencia culinaria inigualable.</h3>
+            <div>
+              <!-- <button type="button" class="btn btn-primary">Primary</button>
+              <button type="button" class="btn btn-secondary">Secondary</button> -->
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/slide3.jpg" class="d-block w-100" alt="One Piece Sabo Luffy Ace"
+            style="display: block; height: 100vh; object-fit: cover;" />
+          <div class="carousel-caption text-end d-none d-md-block">
+            <h1>Caldo de gallina</h1>
+            <h3>Sus sabores equilibrados y su calidez la convierten en la favorita de la casa.</h3>
+            <div>
+              <!-- <button type="button" class="btn btn-primary">Primary</button>
+              <button type="button" class="btn btn-secondary">Secondary</button> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </section>
+    <section class="py-5" id="latest">
+      <div class="container d-flex flex-column gap-4">
+        <h2 class="text-center">Lo más pedido</h2>
+
+        <div class="container marketing">
+          <!-- Three columns of text below the carousel -->
+          <div class="row">
+            <div class="col-lg-4">
+              <img src="./img/cazueladeres.jpg" class="bd-placeholder-img rounded-circle" width="180" height="180"
+                role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <h2 class="fw-normal">Cazuela de res</h2>
+              <p>Con sus tiernos trozos de carne de res, verduras frescas y una base de caldo de carne sabroso, esta
+                cazuela es una explosión de delicias culinarias. Es un clásico plato de cuchara lleno de sabor y
+                sustancia. </p>
+              <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+            </div>
+            <div class="col-lg-4">
+              <img src="./img/caldodegallina2.jpg" class="bd-placeholder-img rounded-circle" width="180" height="180"
+                role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <h2 class="fw-normal">Caldo de gallina</h2>
+              <p>Es una joya culinaria que ha sido apreciada durante generaciones. El pollo tierno y las hierbas
+                aromáticas se combinan para crear un sabor suave y delicioso que es perfecto para los días fríos.</p>
+              <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+            </div>
+            <div class="col-lg-4">
+              <img src="./img/menestron.jpg" class="bd-placeholder-img rounded-circle" width="180" height="180"
+                role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <h2 class="fw-normal">Sopa de Menestron</h2>
+              <p>es un plato reconfortante lleno de sabores y texturas. Con su base de caldo aromático y una abundancia
+                de verduras frescas, ofrece una combinación perfecta de nutrientes y sabor.</p>
+              <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-5 bg-body-secondary" id="top">
+      <div class="container d-flex flex-column gap-4">
+        <h2 class="text-center">Se ofrecen durante la semana</h2>
+        <div class="d-flex flex-column gap-3">
+          <div class="row">
+            <div class="col-md-8 d-flex flex-column justify-content-center">
+              <h3>Sopa Chambar (lunes)</h3>
+              <p>
+                Es un plato tradicional que combina ingredientes como trigo, carne de res, cebolla, ajo y especias. Con
+                su textura suave y sabores reconfortantes, esta sopa es una delicia para el paladar. El trigo aporta una
+                sensación satisfactoria al masticar, mientras que la carne y las especias le dan un sabor único y
+                auténtico.
+              </p>
+            </div>
+            <div class="col-md-4">
+              <img
+                src="data:image/jpeg;base64,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"
+                alt="Sopa Chambar" width="455" height="256" class="img-fluid object-fit-cover border rounded" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY_-HU-7-7C_LOHy0_MEWpsEdLhpLubFRIcGBXU62i_vpvFWNxbcv4il9xc6bMW3-WxlQ&usqp=CAU"
+                alt="Sopa de menestron" width="455" height="256" class="img-fluid object-fit-cover border rounded" />
+            </div>
+            <div class="col-md-8 d-flex flex-column justify-content-center">
+              <h3>Menestrón (martes)</h3>
+              <p>
+                Es una joya culinaria en muchos países de América Latina. Con su caldo abundante, fideos, verduras y
+                trozos de carne, esta sopa es un plato completo y satisfactorio. </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-8 d-flex flex-column justify-content-center">
+              <h3>Chaque arequipeño (miércoles)</h3>
+              <p>
+                Es una sopa tradicional de la región de Arequipa en Perú. Con sus ingredientes como el maíz, la papa, el
+                queso fresco y el ají amarillo, esta sopa es una explosión de sabores peruanos.
+              </p>
+            </div>
+            <div class="col-md-4">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXwsSIQBn6fVWdRyP3Xlxxay8G2sGrvYCRuw&usqp=CAU"
+                alt="Fullmetal Alchemist" width="455" height="256" class="img-fluid object-fit-cover border rounded" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDGBkJMWm2RqKsf4EgjQOzIPz49Nc0tCTHDA&usqp=CAU"
+                alt="Patasca" width="455" height="256" class="img-fluid object-fit-cover border rounded" />
+            </div>
+            <div class="col-md-8 d-flex flex-column justify-content-center">
+              <h3>Patasca (jueves)</h3>
+              <p>
+                Esta sopa toma el nombre de patasca, que es el maíz o trigo pelado y reventado con una cocción de horas
+                en el fogón agregándose carne de res, carnero, mondongo, patas de ternera y hierbas de la región andina.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-8 d-flex flex-column justify-content-center">
+              <h3>Chupe de cola de buey (viernes)</h3>
+              <p>
+                Es una sopa elaborada con rabo de buey como principal ingrediente. para combatir el frío, además que si
+                le agregas zanahorias, papas y habas estarás disfrutando de un platillo nutritivo que te mantendrá con
+                energía todo el día.
+              </p>
+            </div>
+            <div class="col-md-4">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUiF2QVH0xhdrO2RZzFHVLQ8u45PgB9LKsew&usqp=CAU"
+                alt="Fullmetal Alchemist" width="455" height="256" class="img-fluid object-fit-cover border rounded" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoInZy8lVeiEGfjqahaftLBEvTcnZS7oTlew&usqp=CAU"
+                alt="Sopa de cordero con morón" width="455" height="256"
+                class="img-fluid object-fit-cover border rounded" />
+            </div>
+            <div class="col-md-8 d-flex flex-column justify-content-center">
+              <h3>Sopa de cordero con morón (sábado)</h3>
+              <p>
+                Delicia de Sopa de morón. Acompañada de carne de res y verduras. Puede servirse con cilantro picadito.
+                Delicia de Sopa de morón. Acompañada de carne de res y verduras. Puede servirse con cilantro picadito.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-8 d-flex flex-column justify-content-center">
+              <h3>Sancochado limeño (domingo)</h3>
+              <p>
+                Es una exquisita sopa de carne que se formó gracias a la fusión entre el timpu (sopa cusqueña). La misma
+                que entre sus ingredientes incluye col y carne de res, pero además tiene mucho del cocido madrileño que
+                trajeron los españoles.
+              </p>
+            </div>
+            <div class="col-md-4">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1wGd-M2uz3BI1_Srd4cAXPL7WXwaCV4Q6Qg&usqp=CAU"
+                alt="Fullmetal Alchemist" width="455" height="256" class="img-fluid object-fit-cover border rounded" />
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- <section class="py-5" id="categories">
+      <div class="container d-flex flex-column gap-4">
+        <h2 class="text-center">Categorías</h2>
+        <div class="row g-4">
+          <div class="col-md-6">
+            <div class="card">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="https://cdn.superaficionados.com/imagenes/descubre-los-10-mejores-animes-shounen-og.jpg"
+                    class="w-100 h-100 object-fit-cover rounded" alt="Shonen" />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Shonen</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                      additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="https://www.industriaanimacion.com/wp-content/uploads/2022/07/anime_seinen-960x504.jpg"
+                    class="w-100 h-100 object-fit-cover rounded" alt="Shonen" />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Seinen</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                      additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="https://laststopanime.com/wp-content/uploads/2022/06/Best-Shoujo-Anime-to-watch.jpg"
+                    class="w-100 h-100 object-fit-cover rounded" alt="Shonen" />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Shoujo</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                      additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+  </main>
+  <footer class="pt-4 my-md-5 pt-md-5 border-top w-100">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md">
+          <img class="mb-2 rounded-circle" src="./img/logo7sopas.jpg" alt="" width="64" height="64" />
+          <small class="d-block mb-3 text-body-secondary">© 7 sopas 2023</small>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Features</h5>
+          <ul class="list-unstyled text-small">
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Cool stuff</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Random feature</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team feature</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Stuff for developers</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another one</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Last time</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Resources</h5>
+          <ul class="list-unstyled text-small">
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource name</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another resource</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Final resource</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>About</h5>
+          <ul class="list-unstyled text-small">
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Locations</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Privacy</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Terms</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
